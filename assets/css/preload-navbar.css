@@ -1,0 +1,84 @@
+* {
+    border: 0;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+@font-face {
+    font-family: 'Trajan Pro', sans-serif;
+    src: url('https://fonts.cdnfonts.com/css/trajan-pro');
+    font-display: swap;
+}
+
+body {
+    
+    background-color: #FAFAFA;
+    font-display: swap;
+}
+
+a {
+    color: inherit;
+    font-family: inherit;
+    font-size: inherit;
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+
+#navbar {
+    background: #152B40;
+    color: #FAFAFA;
+    position: fixed;
+    top: 0;
+    height: 60px;
+    line-height: 60px;
+    width: 100vw;
+    z-index: 10;
+}
+
+.nav-wrapper {
+    /* margin: auto; */
+    text-align: right;
+    width: 100%;
+}
+
+@media(max-width: 768px) {
+    .nav-wrapper {
+        width: 90%;
+    }
+}
+
+.logo {
+    float: left;
+    margin-left: 28px;
+    font-size: 1.5em;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+
+.logo img {
+    width: 3rem;
+}
+
+#navbar ul {
+    display: inline-block;
+    /* float: right; */
+    list-style: none;
+    /* margin-right: 14px; */
+    margin-top: -2px;
+    text-align: right;
+    transition: transform 0.5s ease-out;
+    -webkit-transition: transform 0.5s ease-out;
+}
+
+@media(max-width: 640px) {
+    
+    .nav-wrapper {
+        width: 100%;
+    }
+    #navbar ul {
+        display: none;
+    }
+}

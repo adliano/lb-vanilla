@@ -5,15 +5,30 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" type="image/svg+xml" href="./assets/images/favicon.svg" />
-    <link href="https://fonts.cdnfonts.com/css/trajan-pro" rel="stylesheet">
+    <!-- <link href="https://fonts.cdnfonts.com/css/trajan-pro" rel="stylesheet"> -->
+    <!-- <link rel="preload" as="style" href="https://fonts.cdnfonts.com/css/trajan-pro"> -->
     <meta name='robots' content='index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1'>
     <meta name="description" content="Dra Lilian Bueno Advocaca, advogados especializados para sua melhor defesa">
     <link rel='canonical' href='https://lilianbuenoadv.com.br/' />
     <!-- Style CSS -->
-    <link rel="stylesheet" href="./assets/css/navbar.css">
-    <link rel="stylesheet" href="./assets/css/hero.css">
+    <!-- <link rel="stylesheet" href="./assets/css/style.css"> -->
+    <link rel="preload" href="./assets/css/style.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+    <noscript>
+        <link rel="stylesheet" href="./assets/css/style.css">
+    </noscript>
+    <link rel="stylesheet" href="./assets/css/preload-navbar.css">
+    <link rel="preload" href="./assets/css/navbar.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+    <noscript>
+        <link rel="stylesheet" href="./assets/css/navbar.css">
+    </noscript>
+    <link rel="stylesheet" type="text/css" href="./assets/css/preload-hero.css">
+    <link rel="preload" href="./assets/css/hero.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+    <noscript>
+        <link rel="stylesheet" href="./assets/css/hero.css">
+    </noscript>
     <!-- Scripts -->
-    <script defer src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
+    <!-- <script async src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script> -->
+    <!-- <script defer src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script> -->
     <title>Lilian Bueno advocacia</title>
 </head>
 
@@ -24,7 +39,8 @@
             <!-- Navbar Logo -->
             <div class="logo">
                 <!-- Logo Placeholder for Illustration -->
-                <a href="#home"><img src="./assets/images/lb-logo.svg" alt="Lilian Bueno advocacia"></a>
+                <a href="#home"><img src="./assets/images/lb-logo.svg" width="30" height="30"
+                        alt="Lilian Bueno advocacia"></a>
             </div>
             <!-- Navbar Links -->
             <ul id="menu">
@@ -52,7 +68,7 @@
     <!-- ---------------- -->
     <!--       HERO       -->
     <!-- ---------------- -->
-    <div className='lb-hero'>
+    <div class='lb-hero'>
         <div class='lb-content'>
             <p>
                 UMA ADVOCACIA HUMANIZADA
@@ -65,7 +81,7 @@
                 <br />
                 entendendo e atuando com carinho e comprometimento em cada caso.
             </p>
-            <div className='wp-entre-contato'>
+            <div class='wp-entre-contato'>
                 <button>Whatsapp</button>
             </div>
         </div>
@@ -74,7 +90,8 @@
     <!-- ------------------------------------ -->
     <!--               SCRIPTS                -->
     <!-- ------------------------------------ -->
-    <script src="./assets/js/navbar.js"></script>
+    <script async src="./assets/js/navbar.js"></script>
+    <!-- <script defer src="./assets/js/navbar.js"></script> -->
 </body>
 
 </html>

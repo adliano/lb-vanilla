@@ -1,9 +1,9 @@
 // Navigation
 // Responsive Toggle Navigation
-let menuIcon = document.querySelector('.menuIcon');
+var _menuIcon = document.querySelector('.menuIcon');
 let nav = document.querySelector('.overlay-menu');
 
-menuIcon.addEventListener('click', () => {
+_menuIcon.addEventListener('click', () => {
     if (nav.style.transform != 'translateX(0%)') {
         nav.style.transform = 'translateX(0%)';
         nav.style.transition = 'transform 0.2s ease-out';
@@ -11,16 +11,29 @@ menuIcon.addEventListener('click', () => {
         nav.style.transform = 'translateX(-100%)';
         nav.style.transition = 'transform 0.2s ease-out';
     }
-});
-
-
-// Toggle Menu Icon 
-let toggleIcon = document.querySelector('.menuIcon');
-
-toggleIcon.addEventListener('click', () => {
-    if (toggleIcon.className != 'menuIcon toggle') {
-        toggleIcon.className += ' toggle';
+    if (_menuIcon.className != 'menuIcon toggle') {
+        _menuIcon.className += ' toggle';
     } else {
-        toggleIcon.className = 'menuIcon';
+       _menuIcon.className = 'menuIcon';
     }
 });
+
+
+// menuIcon.addEventListener('click', () => {
+//     if (menuIcon.className != 'menuIcon toggle') {
+//         menuIcon.className += ' toggle';
+//     } else {
+//         menuIcon.className = 'menuIcon';
+//     }
+// });
+
+// Toggle Menu Icon 
+// let toggleIcon = document.querySelector('.menuIcon');
+
+// toggleIcon.addEventListener('click', () => {
+//     if (toggleIcon.className != 'menuIcon toggle') {
+//         toggleIcon.className += ' toggle';
+//     } else {
+//         toggleIcon.className = 'menuIcon';
+//     }
+// });

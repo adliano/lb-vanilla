@@ -1,0 +1,42 @@
+.lb-hero {
+    background-color: #FAFAFAAA;
+    color: #152B40;
+    height: 100vh;
+    width: 100%;
+    position: relative;
+}
+
+.lb-hero:before {
+    content: '';
+    background: url('../images/cidade-image-fundo.webp') no-repeat center center/cover;
+    background-position: 1px 0px;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    background-attachment: fixed;
+}
+
+.lb-hero .lb-content {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: auto;
+    padding: 2rem;
+}
+
+.lb-hero .lb-content p:first-child {
+    color: #152B40;
+    font-weight: 700;
+    font-size: 1.75rem;
+    text-shadow: 0 3px 10px #BF9563;
+}
+
+.lb-hero .lb-content p:nth-child(2) {
+    margin-top: 1rem;
+    font-weight: 500;
+    font-size: 1.25rem;
+}
