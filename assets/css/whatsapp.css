@@ -6,6 +6,7 @@
 
 .icon-wp .btn-text {
     margin: auto;
+    /* color: #FAFAFA; */
 }
 
 .button-wp {
@@ -15,7 +16,7 @@
     font-weight: bolder;
     width: 320px;
     letter-spacing: .8px;
-    background-color: #1EA130;
+    background-color: #0F6120;
     border: 1px solid #FAFAFA;
 }
 
