@@ -34,7 +34,8 @@ ul {
 
 .logo {
     float: left;
-    margin-left: 28px;
+    margin-top: .2rem;
+    margin-left: 20px;
     font-size: 1.5em;
     letter-spacing: 1px;
     text-transform: uppercase;
