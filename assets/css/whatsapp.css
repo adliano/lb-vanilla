@@ -1,4 +1,4 @@
-.icon-wp {
+/* .icon-wp {
     display: grid;
     column-gap: 1px;
     grid-template-columns: 15% auto;
@@ -6,7 +6,6 @@
 
 .icon-wp .btn-text {
     margin: auto;
-    /* color: #FAFAFA; */
 }
 
 .button-wp {
@@ -18,7 +17,7 @@
     letter-spacing: .8px;
     background-color: #0F6120;
     border: 1px solid #FAFAFA;
-}
+} */
 
 .button-wp:hover {
     background-color: #25D366;
