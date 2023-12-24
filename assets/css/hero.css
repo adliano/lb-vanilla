@@ -1,10 +1,10 @@
 @media screen and (max-width: 640px) {
-  .hero:before {
-    background-position: -175px 1px;
+  .lb-hero:before {
+    background-position: -125px 1px;
     background-attachment: scroll;
   }
 
-  .hero .content img {
+  .lb-hero .content img {
     margin-top: 0%;
   }
 }

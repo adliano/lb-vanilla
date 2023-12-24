@@ -5,27 +5,25 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" type="image/svg+xml" href="./assets/images/favicon.svg" />
-    <!-- <link href="https://fonts.cdnfonts.com/css/trajan-pro" rel="stylesheet"> -->
-    <!-- <link rel="preload" as="style" href="https://fonts.cdnfonts.com/css/trajan-pro"> -->
     <meta name='robots' content='index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1'>
     <meta name="description" content="Dra Lilian Bueno Advocaca, advogados especializados para sua melhor defesa">
     <link rel='canonical' href='https://lilianbuenoadv.com.br/' />
-    <!-- Style CSS -->
-    <link rel="stylesheet" href="./assets/css/style.css">
+    <!-- Preloads Style CSS -->
+    <link rel="stylesheet" href="./assets/css/preloads-home.css">
+    <!-- <link rel="stylesheet" href="./assets/css/style.css">
     <link rel="stylesheet" href="./assets/css/preload-navbar.css">
+    <link rel="stylesheet" type="text/css" href="./assets/css/preload-hero.css"> -->
+    <!-- Async -->
     <link rel="preload" href="./assets/css/navbar.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+    <link rel="preload" href="./assets/css/hero.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+    <link rel="preload" href="./assets/css/quem-somos.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+    <link rel="preload" href="./assets/css/whatsapp.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
     <noscript>
+        <link rel="stylesheet" href="./assets/css/quem-somos.css">
+        <link rel="stylesheet" href="./assets/css/whatsapp.css">
+        <link rel="stylesheet" href="./assets/css/hero.css">
         <link rel="stylesheet" href="./assets/css/navbar.css">
     </noscript>
-    <link rel="stylesheet" type="text/css" href="./assets/css/preload-hero.css">
-    <link rel="preload" href="./assets/css/hero.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
-    <noscript>
-        <link rel="stylesheet" href="./assets/css/hero.css">
-    </noscript>
-    <link rel="stylesheet" href="./assets/css/whatsapp.css">
-    <!-- Scripts -->
-    <!-- <script async src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script> -->
-    <!-- <script defer src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script> -->
     <title>Lilian Bueno advocacia</title>
 </head>
 
@@ -36,15 +34,17 @@
             <!-- Navbar Logo -->
             <div class="logo">
                 <!-- Logo Placeholder for Illustration -->
-                <a href="#home"><img src="./assets/images/lb-logo.svg" width="30" height="30"
-                        alt="Lilian Bueno advocacia"></a>
+                <a href="#home"><img src="./assets/images/lb-logo.png" width="48" height="52"
+                    alt="Lilian Bueno advocacia"></a>
             </div>
+            <!-- Brand Name -->
+            <h5>Lilian Bueno Advocacia</h5>
             <!-- Navbar Links -->
             <ul id="menu">
                 <li><a href="/">Home</a></li>
-                <li><a href="/services">Services</a></li>
-                <li><a href="/about">About</a></li>
-                <li><a href="/contact">Contact</a></li>
+                <li><a href="/services">Quem Somos</a></li>
+                <li><a href="/about">Áreas de Atuação</a></li>
+                <li><a href="/contact">Contato</a></li>
             </ul>
         </div>
     </nav>
@@ -56,9 +56,9 @@
     <div class="overlay-menu">
         <ul id="menu">
             <li><a href="/">Home</a></li>
-            <li><a href="/services">Services</a></li>
-            <li><a href="/about">About</a></li>
-            <li><a href="/contact">Contact</a></li>
+            <li><a href="/services">Quem Somos</a></li>
+            <li><a href="/about">Áreas de Atuação</a></li>
+            <li><a href="/contact">Contato</a></li>
         </ul>
     </div>
     <!-- EO Navbar -->
@@ -79,19 +79,67 @@
                 entendendo e atuando com carinho e comprometimento em cada caso.
             </p>
             <div class='wp-entre-contato'>
-                <a href="https://wa.me/5562993840831/?text='text'">
+                <a href="https://wa.me/5562993840831/?text=">
                     <button class='button-wp'>
-                      <div class='icon-wp'>
-                        <!-- <PiWhatsappLogoThin size={'2rem'} strokeWidth={'10'} /> -->
-                        <img src="./assets/images/whatsapp-icon.svg" alt="WHATSAPP LOGO" width="30" height="30">
-                        <div class='btn-text'>CONSULTE UM ADVOGADO AGORA</div>
-                      </div>
+                        <div class='icon-wp'>
+                            <img src="./assets/images/whatsapp-icon.svg" alt="WHATSAPP LOGO" width="30" height="30">
+                            <div class='btn-text'>CONSULTE UM ADVOGADO AGORA</div>
+                        </div>
                     </button>
-                  </a>
+                </a>
             </div>
         </div>
     </div>
     <!-- EO HERO -->
+    <!-- Quem Somos  -->
+    <div class='quem-somos'>
+        <h2>Quem Somos</h2>
+        <span class='line'></span>
+        <div class='equipe-quem-somos'>
+            <div class='col-2'>
+                <div class='quem-somos-texto'>
+                    <div class='conteudo'>
+                        <p>
+                            Somos um escritório de advocacia comprometido em fornecer
+                            serviços jurídicos de excelência, com especialidades em
+                            diversas áreas do direito. Valorizamos a comunicação
+                            transparente e personalizada, adaptando nossos serviços às
+                            necessidades individuais de cada cliente.
+                        </p>
+                        <p>
+                            Buscamos sempre oferecer orientação estratégica e
+                            representação competente, buscando os melhores resultados para
+                            cada caso. Além disso, temos como princípios fundamentais a
+                            ética profissional e a integridade em todas as nossas ações.
+                        </p>
+                        <p>
+                            Se você está enfrentando um problema jurídico, entre em
+                            contato conosco para agendar uma consulta. Estamos prontos
+                            para ouvir suas preocupações e oferecer orientação jurídica
+                            confiável e eficaz. Estamos comprometidos em fornecer serviços
+                            excepcionais, buscando sempre a melhor solução para o seu caso
+                            e lutando pelos seus direitos e interesses.
+                        </p>
+                    </div>
+                    <!-- END OF CONTEUDO -->
+                </div>
+                <!-- END OF QUEM-SOMOS-TEXTO  -->
+            </div>
+            <!--  END OF COL-2  -->
+            <img src='./assets/images/quem-somos-advocacia.webp' alt='Quem Somos imagem' width="371" height="300" />
+        </div>
+        <!-- END OF EQUIPE-QUEM-SOMOS  -->
+    </div>
+    <div class='wp-entre-contato' style="text-align: center;">
+        <a href="https://wa.me/5562993840831/?text='text'">
+            <button class='button-wp'>
+                <div class='icon-wp'>
+                    <img src="./assets/images/whatsapp-icon.svg" alt="WHATSAPP LOGO" width="30" height="30">
+                    <div class='btn-text'>CONSULTE UM ADVOGADO AGORA</div>
+                </div>
+            </button>
+        </a>
+    </div>
     <!-- ------------------------------------ -->
     <!--               SCRIPTS                -->
     <!-- ------------------------------------ -->

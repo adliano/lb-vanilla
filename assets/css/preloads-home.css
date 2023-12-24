@@ -1,0 +1,266 @@
+* {
+    border: 0;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #FAFAFA;
+}
+
+.line {
+    display: block;
+    width: 40px;
+    height: 3px;
+    margin: 5px auto;
+    background-color: #BF9563;
+}
+
+a {
+    color: inherit;
+    font-family: inherit;
+    font-size: inherit;
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+
+#navbar {
+    background: #152B40;
+    color: #FAFAFA;
+    position: fixed;
+    top: 0;
+    height: 60px;
+    line-height: 60px;
+    width: 100vw;
+    z-index: 10;
+}
+
+.nav-wrapper {
+    text-align: right;
+    width: 100%;
+}
+
+.nav-wrapper h5 {
+    color: #FAFAFA;
+    float: left;
+    padding-left: .5rem;
+    margin-top: .5rem;
+    font-size: 1rem;
+}
+
+/* hero */
+.lb-hero {
+    background-color: #FAFAFAAA;
+    color: #152B40;
+    height: 100vh;
+    width: 100%;
+    position: relative;
+}
+
+.lb-hero:before {
+    content: '';
+    background: url('../images/cidade-image-fundo.webp') no-repeat center center/cover;
+    background-position: 1px 0px;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    background-attachment: fixed;
+}
+
+.lb-hero .lb-content {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: auto;
+    padding: 2rem;
+}
+
+.lb-hero .lb-content p:first-child {
+    color: #152B40;
+    font-weight: 700;
+    font-size: 1.75rem;
+    text-shadow: 0 3px 10px #BF9563;
+}
+
+.lb-hero .lb-content p:nth-child(2) {
+    margin-top: 1rem;
+    font-weight: 500;
+    font-size: 1.25rem;
+}
+
+/* WhatsApp */
+.icon-wp {
+    display: grid;
+    column-gap: 1px;
+    grid-template-columns: 15% auto;
+}
+
+.icon-wp .btn-text {
+    margin: auto;
+}
+
+.button-wp {
+    margin: 1rem 0;
+    padding: .5rem;
+    color: #fafafa;
+    font-weight: bolder;
+    width: 320px;
+    letter-spacing: .8px;
+    background-color: #0F6120;
+    border: 1px solid #FAFAFA;
+}
+
+/* quem somos */
+.quem-somos {
+    background-color: #FAFAFA;
+    color: #152B40;
+    max-width: 1240px;
+    margin: auto;
+}
+
+.quem-somos .equipe-quem-somos {
+    margin: auto;
+    display: grid;
+    grid-template-columns: 65% 1fr;
+}
+
+.quem-somos .col-2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2rem;
+}
+
+.quem-somos img {
+    margin: auto;
+}
+
+.quem-somos p {
+    margin: 1rem 0;
+    font-size: 1.25rem;
+}
+
+.quem-somos h2 {
+    font-size: 2rem;
+    text-align: center;
+    margin-top: 2.5rem;
+}
+
+/* mobile */
+/* @media(max-width: 768px) {
+    .nav-wrapper {
+        width: 90%;
+    }
+} */
+
+.logo {
+    float: left;
+    margin-top: .2rem;
+    margin-left: 20px;
+    font-size: 1.5em;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+
+.logo img {
+    width: 3rem;
+}
+
+#navbar ul {
+    display: inline-block;
+    list-style: none;
+    margin-top: -2px;
+    text-align: right;
+    transition: transform 0.5s ease-out;
+    -webkit-transition: transform 0.5s ease-out;
+}
+
+/* quem somos */
+.quem-somos {
+    background-color: #FAFAFA;
+    color: #152B40;
+    max-width: 1240px;
+    margin: auto;
+}
+
+.quem-somos .equipe-quem-somos {
+    margin: auto;
+    display: grid;
+    grid-template-columns: 65% 1fr;
+}
+
+.quem-somos .col-2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2rem;
+}
+
+.quem-somos img {
+    margin: auto;
+}
+
+.quem-somos p {
+    margin: 1rem 0;
+    font-size: 1.25rem;
+}
+
+.quem-somos h2 {
+    font-size: 2rem;
+    text-align: center;
+    margin-top: 2.5rem;
+}
+
+@media(max-width: 768px) {
+
+    .nav-wrapper {
+        width: 97%;
+    }
+
+    #navbar ul {
+        display: none;
+    }
+
+    .menuIcon {
+        cursor: pointer;
+        display: block;
+        position: fixed;
+        right: 15px;
+        top: 20px;
+        height: 23px;
+        width: 27px;
+        z-index: 12;
+    }
+
+    .quem-somos {
+        width: 100vw;
+        padding: 0;
+        margin: auto;
+    }
+
+    .quem-somos .col-2 {
+        padding: .75rem;
+        text-align: justify;
+    }
+
+    .quem-somos .container {
+        width: 95%;
+        grid-template-columns: 1fr;
+    }
+
+    .quem-somos img {
+        width: 90vw;
+    }
+
+    .quem-somos .equipe-quem-somos {
+        grid-template-columns: 1fr;
+    }
+}
