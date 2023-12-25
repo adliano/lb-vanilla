@@ -18,22 +18,8 @@ _menuIcon.addEventListener('click', () => {
     }
 });
 
-
-// menuIcon.addEventListener('click', () => {
-//     if (menuIcon.className != 'menuIcon toggle') {
-//         menuIcon.className += ' toggle';
-//     } else {
-//         menuIcon.className = 'menuIcon';
-//     }
-// });
-
-// Toggle Menu Icon 
-// let toggleIcon = document.querySelector('.menuIcon');
-
-// toggleIcon.addEventListener('click', () => {
-//     if (toggleIcon.className != 'menuIcon toggle') {
-//         toggleIcon.className += ' toggle';
-//     } else {
-//         toggleIcon.className = 'menuIcon';
-//     }
-// });
+const closeMenu = (target) => {
+    // window.scrollTo(0, document.getElementById(target).offsetTop-55)
+    _menuIcon.className = 'menuIcon';
+    nav.style.transform='translateX(-100%)';
+}

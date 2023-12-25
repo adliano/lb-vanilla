@@ -35,7 +35,7 @@
   @media screen and (max-width: 940px) {
     .quem-somos {
       width: 100vw;
-      padding: 0;
+      padding: 1rem 0;
       margin: auto;
     }
     .quem-somos .col-2 {
