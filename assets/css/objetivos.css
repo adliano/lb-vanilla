@@ -1,0 +1,58 @@
+.objetivos {
+    background-color: #152B40;
+    color: #FAFAFA;
+    width: 100%;
+    margin: auto;
+    padding: 2rem;
+    /* CHANGE LATER */
+    box-shadow: 5px 7px 10px #bf9563;
+}
+
+.objetivos .conteudo p {
+    text-align: center;
+    margin: auto;
+}
+
+.objetivos .objetivo-cartoes {
+    width: 100%;
+    max-width: 1080px;
+    margin: 0 auto;
+    display: grid;
+    padding: 15px 0px;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.objetivo-cartoes {
+    margin: 1.5rem;
+    text-align: center;
+}
+
+/* TODO: fix card ing size */
+.objetivo-cartoes img {
+    width: 8rem;
+    height: 6rem;
+}
+
+.objetivo-cartoes p {
+    font-size: 1.2rem;
+    margin: 5px;
+}
+
+.objetivo-cartoes span {
+    font-size: larger;
+    font-weight: bolder;
+}
+
+@media screen and (max-width: 940px) {
+    .objetivos {
+        padding: 0;
+    }
+
+    .objetivos .objetivo-cartoes {
+        grid-template-columns: 1fr;
+    }
+
+    .objetivo-conteudo {
+        padding: 1rem;
+    }
+}

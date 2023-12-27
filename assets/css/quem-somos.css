@@ -1,54 +1,24 @@
-/* .quem-somos{
-  background-color: #FAFAFA;
-  color: #152B40;
-    max-width: 1240px;
-    margin: auto;
-  }
-  .quem-somos .equipe-quem-somos {
-    margin: auto;
-    display: grid;
-    grid-template-columns: 65% 1fr;
-  }
-  
-  .quem-somos .col-2 {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 2rem;
-  }
-  
-  .quem-somos img {
-    margin: auto;
-  }
-  
-  .quem-somos p {
-    margin: 1rem 0;
-    font-size: 1.25rem;
-  }
-  
-  .quem-somos h2 {
-    font-size: 2rem;
-    text-align: center;
-    margin-top: 2.5rem;
-  } */
-  /* MOBILE */
   @media screen and (max-width: 940px) {
     .quem-somos {
       width: 100vw;
       padding: 1rem 0;
       margin: auto;
     }
+
     .quem-somos .col-2 {
       padding: .75rem;
       text-align: justify;
     }
+
     .quem-somos .container {
       width: 95%;
       grid-template-columns: 1fr;
     }
-    .quem-somos img{
+
+    .quem-somos img {
       width: 90vw;
     }
+
     .quem-somos .equipe-quem-somos {
       grid-template-columns: 1fr;
     }
