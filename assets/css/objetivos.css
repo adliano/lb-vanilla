@@ -1,11 +1,13 @@
 .objetivos {
-    background-color: #152B40;
-    color: #FAFAFA;
+    /* background-color: #152B40; */
+    /* color: #FAFAFA; */
+    background-color: #FAFAFA;
+    color: #152B49;
     width: 100%;
     margin: auto;
     padding: 4rem;
     /* CHANGE LATER */
-    box-shadow: 5px 7px 10px #bf9563;
+    /* box-shadow: 5px 7px 10px #bf9563; */
 }
 
 .objetivos .objetivo-conteudo p {
