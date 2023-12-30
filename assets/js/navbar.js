@@ -18,8 +18,7 @@ _menuIcon.addEventListener('click', () => {
     }
 });
 
-const closeMenu = (target) => {
-    // window.scrollTo(0, document.getElementById(target).offsetTop-55)
+const closeMenu = () => {
     _menuIcon.className = 'menuIcon';
     nav.style.transform='translateX(-100%)';
 }
