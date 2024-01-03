@@ -65,3 +65,17 @@
     font-size: 1rem;
     font-weight: 700;
 }
+@media screen and (max-width: 940px) {
+    .works .container {
+      width: 100%;
+    }
+    .works .container .content {
+      grid-template-columns: 1fr;
+      margin: 1rem 0;
+    }
+    .card-works{
+      width: 80vw;
+      margin: auto;
+    }
+    
+  }
