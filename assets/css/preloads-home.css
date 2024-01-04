@@ -139,9 +139,9 @@ ul {
     padding: 2rem;
 }
 
-.quem-somos img {
+/* .quem-somos img {
     margin: auto;
-}
+} */
 
 .quem-somos p {
     margin: 1rem 0;
@@ -249,9 +249,9 @@ ul {
         grid-template-columns: 1fr;
     }
 
-    .quem-somos img {
+    /* .quem-somos img {
         width: 90vw;
-    }
+    } */
 
     .quem-somos .equipe-quem-somos {
         grid-template-columns: 1fr;
