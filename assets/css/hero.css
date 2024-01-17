@@ -1,5 +1,18 @@
+.lb-hero::before {
+  content: '';
+  background: url('../images/cidade-image-fundo.webp') no-repeat center center/cover;
+  background-position: 1px 0px;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  background-attachment: fixed;
+}
+
 @media screen and (max-width: 640px) {
-  .lb-hero:before {
+  .lb-hero::before {
     background-attachment: scroll;
     background: url('../images/cidade-image-fundo-min.webp') no-repeat center center/cover;
   }

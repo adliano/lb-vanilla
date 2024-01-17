@@ -61,19 +61,6 @@ ul {
     position: relative;
 }
 
-.lb-hero:before {
-    content: '';
-    background: url('../images/cidade-image-fundo.webp') no-repeat center center/cover;
-    background-position: 1px 0px;
-    height: 100%;
-    width: 100%;
-    position: absolute;
-    top: 0;
-    left: 0;
-    z-index: -1;
-    background-attachment: fixed;
-}
-
 .lb-hero .lb-content {
     height: 100%;
     display: flex;
@@ -164,7 +151,7 @@ ul {
 }
 
 .logo img {
-    width: 3rem;
+    /* width: 3rem; */
 }
 
 #navbar ul {
