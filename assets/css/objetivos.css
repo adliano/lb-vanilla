@@ -1,11 +1,13 @@
 .objetivos {
-    background-color: #152B40;
-    color: #FAFAFA;
+    /* background-color: #152B40; */
+    /* color: #FAFAFA; */
+    background-color: #FAFAFA;
+    color: #152B49;
     width: 100%;
     margin: auto;
     padding: 4rem;
     /* CHANGE LATER */
-    box-shadow: 5px 7px 10px #bf9563;
+    /* box-shadow: 5px 7px 10px #bf9563; */
 }
 
 .objetivos .objetivo-conteudo p {
@@ -30,10 +32,10 @@
 }
 
 /* TODO: fix card ing size */
-.objetivo-cartoes img {
+/* .objetivo-cartoes img {
     width: 8rem;
     height: 6rem;
-}
+} */
 
 .objetivo-cartoes p {
     font-size: 1.2rem;

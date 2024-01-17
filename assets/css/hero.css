@@ -1,10 +1,34 @@
+.lb-hero::before {
+  content: '';
+  background: url('../images/cidade-image-fundo.webp') no-repeat center center/cover;
+  background-position: 1px 0px;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  background-attachment: fixed;
+}
+
 @media screen and (max-width: 640px) {
-  .lb-hero:before {
-    background-position: -125px 1px;
+  .lb-hero::before {
     background-attachment: scroll;
+    background: url('../images/cidade-image-fundo-min.webp') no-repeat center center/cover;
   }
 
-  .lb-hero .content img {
+  /* .lb-hero .content img {
     margin-top: 0%;
-  }
+  } */
+
+  .lb-hero .lb-content p:first-child {
+    font-weight: 500;
+    font-size: 1.5rem;
+}
+
+.lb-hero .lb-content p:nth-child(2) {
+  font-weight: 400;
+  font-size: 1.2rem;
+}
+
 }

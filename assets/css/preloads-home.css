@@ -61,19 +61,6 @@ ul {
     position: relative;
 }
 
-.lb-hero:before {
-    content: '';
-    background: url('../images/cidade-image-fundo.webp') no-repeat center center/cover;
-    background-position: 1px 0px;
-    height: 100%;
-    width: 100%;
-    position: absolute;
-    top: 0;
-    left: 0;
-    z-index: -1;
-    background-attachment: fixed;
-}
-
 .lb-hero .lb-content {
     height: 100%;
     display: flex;
@@ -139,9 +126,9 @@ ul {
     padding: 2rem;
 }
 
-.quem-somos img {
+/* .quem-somos img {
     margin: auto;
-}
+} */
 
 .quem-somos p {
     margin: 1rem 0;
@@ -164,7 +151,7 @@ ul {
 }
 
 .logo img {
-    width: 3rem;
+    /* width: 3rem; */
 }
 
 #navbar ul {
@@ -249,9 +236,9 @@ ul {
         grid-template-columns: 1fr;
     }
 
-    .quem-somos img {
+    /* .quem-somos img {
         width: 90vw;
-    }
+    } */
 
     .quem-somos .equipe-quem-somos {
         grid-template-columns: 1fr;
