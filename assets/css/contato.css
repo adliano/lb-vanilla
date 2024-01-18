@@ -40,13 +40,17 @@
   .contact .phone-number {
     font-size: large;
     font-weight: bolder;
-    padding: 10px;
+    /* padding: 10px; */
   }
   .contact .email {
     font-size: large;
     /* font-weight: bold; */
-    padding: 5px;
+    /* padding: 5px; */
   
+  }
+
+  .endereco p {
+    padding: .25rem 0;
   }
   
   @media screen and (max-width: 940px) {
