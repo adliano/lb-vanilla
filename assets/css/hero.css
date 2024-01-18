@@ -24,7 +24,7 @@
   font-size: 1.25rem;
 }
 
-@media screen and (max-width: 640px) {
+@media screen and (max-width: 940px) {
   .lb-hero::before {
     background-attachment: scroll;
     background: url('../images/cidade-image-fundo-min.webp') no-repeat center center/cover;
