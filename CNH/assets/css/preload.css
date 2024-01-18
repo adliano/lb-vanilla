@@ -82,6 +82,28 @@ a {
   margin-bottom: 0;
 }
 
+/* WhatsApp */
+.icon-wp {
+  display: grid;
+  column-gap: 1px;
+  grid-template-columns: 15% auto;
+}
+
+.icon-wp .btn-text {
+  margin: auto;
+}
+
+.button-wp {
+  margin: 1rem 0;
+  padding: .5rem;
+  color: #fafafa;
+  font-weight: bolder;
+  width: 320px;
+  letter-spacing: .8px;
+  background-color: #0F6120;
+  border: 1px solid #FAFAFA;
+} 
+
 @media screen and (max-width: 940px) {
   .cnh-hero .content {
     padding: 2rem 1rem;
