@@ -1,0 +1,48 @@
+/* ------------------ */
+/*       DORES        */
+/* ------------------ */
+
+.dist-dores {
+    background-color: #fafafa;
+    color: #152b40;
+    width: 100%;
+    height: 100%;
+    margin: auto;
+    padding: 10vh 0;
+}
+
+.header-dist {
+    text-align: center;
+    font-size: 1.5rem;
+    padding: 1rem;
+}
+
+.header-dist span {
+    font-weight: 700;
+    font-size: 2rem;
+}
+
+.dist-container {
+    width: 90vw;
+    max-width: 1280px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.dist-container p {
+    padding: 1rem 0;
+    line-height: 1.35;
+}
+
+.dist-container h3 {
+    padding-top: 2rem;
+}
+
+.dist-container ul li::before {
+    content: '✅';
+    font-size: 1.25rem;
+    display: inline-block;
+    width: 0.5rem;
+    margin: 1rem 1.25rem 0 0;
+}
