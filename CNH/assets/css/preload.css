@@ -1,0 +1,78 @@
+* {
+    border: 0;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #FAFAFA;
+}
+
+.line {
+    display: block;
+    width: 40px;
+    height: 3px;
+    margin: 5px auto;
+    background-color: #BF9563;
+}
+
+.cnh-hero {
+    background-color: #152b40c8;
+    color: #fafafa;
+    background-size: 50px 10%;
+    /* height: 90%; */
+    height: 100svh;
+    width: 100%;
+    position: relative;
+  }
+  
+  .cnh-hero::before {
+    content: '';
+    background: url('../images/rua-cnh-suspensa.webp') no-repeat center
+      center/cover;
+    /* Photo by Kaique Rocha: https://www.pexels.com/photo/parked-gray-car-39943/ */
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-color: #fafafa;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+  }
+  
+  /* 1920 x 1080  */
+  .cnh-hero .content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: auto;
+    padding: 4rem 2.5rem;
+  }
+  
+  .cnh-hero .content img {
+    width: 18%;
+    max-width: 480px;
+    padding: 0 1rem 2rem 1rem;
+  }
+  
+  .cnh-hero .content h1 {
+    /* color: #ff5f03; */
+    color: #BF9563;
+    text-shadow: 0 1px 2px #000;
+  }
+  
+  .cnh-hero .content .cnh-text p:first-child {
+    font-weight: 700;
+    font-size: 1.5rem;
+    margin-top: 3rem;
+  }
+  
+  .cnh-hero .content .cnh-text p:nth-child(2) {
+    font-weight: 500;
+    font-size: 1.5rem;
+    margin-top: 3rem;
+    margin-bottom: 0;
+  }
