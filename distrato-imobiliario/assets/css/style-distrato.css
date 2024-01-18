@@ -1,7 +1,6 @@
 /* ------------------ */
 /*       DORES        */
 /* ------------------ */
-
 .dist-dores {
     background-color: #fafafa;
     color: #152b40;
@@ -20,6 +19,11 @@
 .header-dist span {
     font-weight: 700;
     font-size: 2rem;
+}
+
+.dores-header {
+    font-size: 1.25rem;
+    font-weight: 700;
 }
 
 .dist-container {
@@ -41,8 +45,85 @@
 
 .dist-container ul li::before {
     content: '✅';
-    font-size: 1.25rem;
+    font-size: 1rem;
     display: inline-block;
     width: 0.5rem;
     margin: 1rem 1.25rem 0 0;
 }
+/* ------------------ */
+/*     SERVICOS       */
+/* ------------------ */
+.servicos {
+    background-color: #152b40;
+    color: #fafafa;
+    height: 100%;
+    width: 100%;
+    text-align: center;
+    margin: auto;
+    padding: 0;
+  }
+  
+  .servicos .servicos-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+  
+  .servicos-col {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 2rem;
+    text-align: left;
+  }
+
+  .servicos-col h1 {
+    /* color: #bf9563; */
+    color: #fafafa;
+    text-align: center;
+  }
+
+  .servicos-col h3 {
+    margin: 2rem 0 0.75rem 0;
+    font-size: 1.75rem;
+    text-decoration: underline;
+  }
+
+  .servicos-col p {
+    margin: 0.5rem 0;
+    font-size: 1rem;
+    font-weight: 400;
+    text-align: justify;
+    line-height: 1.35;
+  }
+
+  .servicos-col ul li {
+    text-align: justify;
+    font-size: 1rem;
+    font-weight: 400;
+  }
+
+  .servicos-col ul li::before {
+    content: '✅';
+    font-size: 1rem;
+    display: inline-block;
+    width: 0.5rem;
+    margin: 1rem 1.25rem 0 0;
+  }
+  
+  .servicos-container img {
+    width: 75%;
+    /* max-width: 480px; */
+    margin: auto;
+  }
+  
+  @media screen and (max-width: 980px) {
+    .servicos .servicos-container {
+      grid-template-columns: 1fr;
+    }
+    .servicos-container img {
+      width: 90%;
+    }
+    .servicos-col {
+      padding: 0.75rem;
+    }
+  }
