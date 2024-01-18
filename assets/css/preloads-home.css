@@ -56,7 +56,7 @@ ul {
 .lb-hero {
     background-color: #FAFAFAAA;
     color: #152B40;
-    height: 100vh;
+    height: 100svh;
     width: 100%;
     position: relative;
 }
@@ -70,18 +70,18 @@ ul {
     padding: 2rem;
 }
 
-.lb-hero .lb-content p:first-child {
+/* .lb-hero .lb-content p:first-child {
     color: #152B40;
     font-weight: 700;
-    font-size: 1.75rem;
+    font-size: larger;
     text-shadow: 0 3px 10px #BF9563;
 }
 
 .lb-hero .lb-content p:nth-child(2) {
     margin-top: 1rem;
     font-weight: 500;
-    font-size: 1.25rem;
-}
+    font-size: large;
+} */
 
 /* WhatsApp */
 .icon-wp {
@@ -105,42 +105,6 @@ ul {
     border: 1px solid #FAFAFA;
 }
 
-/* quem somos */
-.quem-somos {
-    background-color: #FAFAFA;
-    color: #152B40;
-    max-width: 1240px;
-    margin: auto;
-}
-
-.quem-somos .equipe-quem-somos {
-    margin: auto;
-    display: grid;
-    grid-template-columns: 65% 1fr;
-}
-
-.quem-somos .col-2 {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 2rem;
-}
-
-/* .quem-somos img {
-    margin: auto;
-} */
-
-.quem-somos p {
-    margin: 1rem 0;
-    font-size: 1.25rem;
-}
-
-.quem-somos h2 {
-    font-size: 2rem;
-    text-align: center;
-    margin-top: 2.5rem;
-}
-
 .logo {
     float: left;
     margin-top: .2rem;
@@ -150,9 +114,9 @@ ul {
     text-transform: uppercase;
 }
 
-.logo img {
-    /* width: 3rem; */
-}
+/* .logo img { */
+/* width: 3rem; */
+/* } */
 
 #navbar ul {
     display: inline-block;
@@ -164,7 +128,7 @@ ul {
 }
 
 /* quem somos */
-.quem-somos {
+/* .quem-somos {
     background-color: #FAFAFA;
     color: #152B40;
     max-width: 1240px;
@@ -197,7 +161,7 @@ ul {
     font-size: 2rem;
     text-align: center;
     margin-top: 2.5rem;
-}
+} */
 
 @media(max-width: 768px) {
 
@@ -220,8 +184,8 @@ ul {
         z-index: 12;
     }
 
-    .quem-somos {
-        width: 100vw;
+    /* .quem-somos {
+        width: 100svw;
         padding: 0;
         margin: auto;
     }
@@ -236,11 +200,11 @@ ul {
         grid-template-columns: 1fr;
     }
 
-    /* .quem-somos img {
-        width: 90vw;
-    } */
+    .quem-somos img {
+        width: 100%;
+    }
 
     .quem-somos .equipe-quem-somos {
         grid-template-columns: 1fr;
-    }
+    } */
 }

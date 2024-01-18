@@ -50,11 +50,15 @@
   }
   
   @media screen and (max-width: 640px) {
-    .contact {
-      background-position: -140px 25px;
-    }
+    /* .contact::before {
+      background: url('../images/contato-mobile.webp') no-repeat center/cover;
+    } */
+    /* .contact { */
+      /* background-position: -140px 25px; */
+      /* width: 95%; */
+    /* } */
     .contact .container {
-      width: 100vw;
+      width: 95%;
     }
     .contact .container .endereco {
       margin-bottom: 3rem;
