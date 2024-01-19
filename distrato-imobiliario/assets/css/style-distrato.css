@@ -129,7 +129,7 @@
 }
 
 .faq-sect {
-    min-height: 100vh;
+    min-height: 100svh;
     width: 80%;
     margin: 0 auto;
     padding: 1.5rem 0;
@@ -145,7 +145,7 @@
 }
 
 .faq-content {
-    width: 90vw;
+    width: 95%;
     max-width: 1080px;
     margin-top: 2rem;
     padding-bottom: 1rem;
@@ -243,10 +243,10 @@
     }
 
     .accordion {
-        width: 95svw;
+        width: 99%;
     }
 
     .panel {
-        width: 95svw;
+        width: 99%;
     }
 }
