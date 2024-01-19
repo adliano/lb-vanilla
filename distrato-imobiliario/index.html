@@ -18,6 +18,7 @@
   <noscript>
     <link rel="stylesheet" href="./assets/css/style-distrato.css">
     <link rel="stylesheet" href="../assets/css/whatsapp.css">
+    <link rel="stylesheet" href="../assets/css/footer.css">
   </noscript>
   <title>Distrato Imobiliario</title>
 </head>
@@ -210,33 +211,127 @@ c21.2-8.1,52.2-18.2,79.7-24.2C399.3,7.9,411.6,7.5,421.9,6.5z'></path>
     <div class='faq-sect' id="faq-sect">
       <h2>Dúvidas mais frequentes</h2>
       <span class='line' style="margin-bottom: 25px;"></span>
-      <!-- <div id="faqs-data"></div> -->
-      <script type="text/javascript">
-        fetch('./assets/JS/faqs-data.json')
-          .then(function (response) {
-            return response.json();
-          })
-          .then(function (data) {
-            // let mainContainer = document.getElementById("faqs-data");
-            let mainContainer = document.getElementById("faq-sect");
-            data.map(({ title, content }) => {
-              // Debug
-              // console.log(` Title: ${title}`)
-              // create element
-              let btn = document.createElement('button');
-              let dv = document.createElement('div');
-              // set attributes
-              btn.setAttribute('class', 'accordion');
-              dv.setAttribute('class', 'panel');
-              // add children
-              btn.textContent = title;
-              dv.innerHTML = `<p>${content}</p>`
-              // append element to DOM
-              mainContainer.appendChild(btn)
-              mainContainer.appendChild(dv)
-            })
-          })
-      </script>
+      <!--  -->
+      <button class="accordion">Até quando posso desistir da compra do imóvel?</button>
+      <div class="panel">
+        <p>Qualquer consumidor tem o direito de desistir da compra do imóvel, ninguém é obrigado a continuar em um
+          contrato que não mais deseja. No entanto, cabe dizer que até entrega das chaves é mais simples, porém, após a
+          entrega das chaves é preciso analisar diversos fatores. Como por exemplo, se existem vícios no contrato e qual
+          é a posição do Tribunal daquele Estado.</p>
+      </div>
+      <!--  -->
+      <button class="accordion">Como proceder com a desistência da compra de imóvel?</button>
+      <div class="panel">
+        <p>Em primeiro lugar, o primeiro passo para desistência da compra de imóvel é comunicar formalmente a
+          construtora ou ao vendedor que não pretende concluir a negociação. Entretanto, antes da tomada de qualquer
+          decisão, vale advertir que os contratos/promessas de compra e venda possuem cláusulas específicas que devem
+          ser analisadas previamente por um especialista, antes que o interessado manifeste sua vontade e saia
+          prejudicado.</p>
+      </div>
+      <!--  -->
+      <button class="accordion">Posso ter a devolução do Arras?</button>
+      <div class="panel">
+        <p>Importante ressaltar que, tratando-se de imóveis comercializados por construtoras ou incorporadoras, os
+          contratos são diferentes, daqueles que a venda é feita entre particulares. Dessa forma, numa venda realizada
+          entre particulares á primeira vista, pode se pensar que sim, mas a resposta correta é: depende. Pois se há
+          descumprimento do contrato, desistindo uma das partes de sua concretização, dependerá de quem desistiu ou deu
+          causa ao desfazimento do negócio. Ou seja, se quem dá arras desiste ou dá causa ao desfazimento, perde-as em
+          favor da parte contrária.</p>
+      </div>
+      <!--  -->
+      <button class="accordion">Terei devolução total dos valores pagos caso desista da compra do imóvel? Qual valor
+        receberei de volta?</button>
+      <div class="panel">
+        <p>Antes de tudo, verifique se foi a construtora que deu causa a desistência. Caso As questões ligadas a
+          desistência da compra de imóvel, sofreram muitas mudanças com a nova lei. Portanto, caso o desejo de
+          desistência seja seu, ou seja, do Comprador, recomendamos fortemente que você fale com um especialista, para
+          melhor orientação.
+        </p>
+      </div>
+      <!--  -->
+      <button class="accordion">Qual é o prazo para desistência da compra de imóvel?</button>
+      <div class="panel">
+        <p>O Código de Defesa do Consumidor traz a previsão legal do chamado direito de arrependimento em um prazo de 7
+          dias da assinatura ou então do ato de recebimento do produto ou serviço, com a devolução integral e imediata
+          do valor pago, desde que estes tenham sido adquiridos fora do estabelecimento comercial.
+        </p>
+      </div>
+      <!--  -->
+      <button class="accordion">O Contrato me permite desistir, contudo existem multas no meu contrato de compra e venda
+        de imóvel, são devidas?</button>
+      <div class="panel">
+        <p>A princípio será necessária uma análise apurada do contrato, todavia, multas que ultrapassem a possibilidade
+          de retenção de 25% quando o imóvel não se tratar de patrimônio de afetação tem sido rejeitadas pela justiça,
+          pois são contrárias a lei do distrato. Além disso, se o seu imóvel se trata de patrimônio de afetação, segundo
+          a famigerada lei do distrato, a retenção será de 50%, porém, é preciso analisar toda a dinâmica dos fatos.
+        </p>
+      </div>
+      <!--  -->
+      <button class="accordion">Qual o prazo para receber de volta os valores pagos em caso de desistência da compra de
+        imóvel?</button>
+      <div class="panel">
+        <p>A devolução dos valores pagos pelo consumidor deve ser realizada IMEDIATAMENTE. Obviamente, considerando os
+          prazos de compensação bancária. O comprador não pode ser lesado com eventual demora da
+          construtora/incorporadora. Nesse sentido, recomendamos, em primeiro lugar é notificar extrajudicialmente a
+          construtora para um acordo. Isso pode ser feito pelo próprio comprador, mas a recomendação é que seja feito
+          por um advogado especialista, que já esteja habituado com esse tipo de negociação. Por outro lado, cabe um
+          alerta, pois as construtoras, sempre desejam devolver o menor percentual possível e alguns consumidores, no
+          momento do desespero, acabam aceitando péssimos acordos.
+        </p>
+      </div>
+      <!--  -->
+      <button class="accordion">Estou inadimplente, posso desistir da compra mesmo assim?</button>
+      <div class="panel">
+        <p>Sim! No entanto, com a mudança das regras do distrato imobiliário, com a publicação da lei 13786/2019. A
+          situação mudou. Assim, o comprador que ficar inadimplente a partir de agora, terá direito a receber de 50% a
+          75% dos valores pagos. Indo de encontro a diversas decisões do STJ que garantiam ao consumidor inadimplente no
+          mínimo a devolução de 75% dos valores pagos. Recomendamos que você fale com um especialista, para melhor
+          orientação.
+        </p>
+      </div>
+      <!--  -->
+      <button class="accordion">Minha obra está atrasada, posso pedir a rescisão do contrato?</button>
+      <div class="panel">
+        <p>Sim! Conforme o Código de Defesa do Consumidor e a própria lei do distrato, o comprador pode exigir a
+          rescisão do contrato imobiliário por conta do atraso na entrega. Ora, em casos como este a quebra do contrato
+          se dá por culpa da vendedora, por isso, é direito incontestável do comprador receber tudo o que pagou,
+          incluindo todas as taxas, devidamente corrigido e acrescido de juros, além de pleitear eventuais indenizações
+          por danos morais ou materiais ou qualquer prejuízo que tenha sofrido.
+        </p>
+      </div>
+      <!--  -->
+      <button class="accordion">Se o financiamento não foi aprovado pelo Banco, devo receber algo da construtora? Quanto
+        devo receber?</button>
+      <div class="panel">
+        <p>Se você decidiu comprar um imóvel na planta, e dentro do próprio stand de vendas, a construtora através do
+          seu corretor de imóveis, diz que o seu crédito é pré-aprovado, ou promete que diante das informações prestadas
+          o Banco irá fornecer o crédito para compra e na hora da concessão do crédito pelo banco o mesmo é NEGADO,
+          caberá pedido de DEVOLUÇÃO INTEGRAL DOS VALORES PAGOS A CONSTRUTORA.
+        </p>
+      </div>
+      <!--  -->
+      <button class="accordion">O judiciário tem sido categórico quanto a devolução nesses casos?</button>
+      <div class="panel">
+        <p>Aconselhamos que você fale com um especialista, para melhor orientação, para verificar inclusive a
+          possibilidade de devolução de 100% dos valores pagos, dano moral nos casos de distrato e ainda as regras da
+          nova lei.
+        </p>
+      </div>
+      <!--  -->
+      <button class="accordion">Quando devo ingressar com uma ação judicial?</button>
+      <div class="panel">
+        <p>Muitas vezes uma notificação extrajudicial bem elaborada, resolve a questão. Todavia, caso a construtora,
+          vendedor ou corretor criem empecilhos para devolução dos valores pagos é importante organizar a documentação e
+          ingressar IMEDIATAMENTE no judiciário com uma ação de distrato imobiliário. IMPORTANTE, não deixe o tempo
+          passar para tomar uma atitude. Junte os documentos, como contratos e materiais de marketing e procure ajuda
+          especializada.
+        </p>
+      </div>
+      <!--  -->
+      <!-- <button class="accordion">Section</button>
+      <div class="panel">
+        <p></p>
+      </div> -->
     </div>
     <div class='wp-entre-contato' style="text-align: center;">
       <a href="https://wa.me/5562993840831/?text=">

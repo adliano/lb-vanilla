@@ -186,7 +186,7 @@
     color: #152b40;
     cursor: pointer;
     padding: 18px;
-    width: 100%;
+    width: 90%;
     border: none;
     text-align: left;
     font-size: 1.25rem;
@@ -203,7 +203,7 @@
 
 .panel {
     padding: 10px 18px;
-    width: 100%;
+    width: 90%;
     display: none;
     background-color: white;
     overflow: hidden;
@@ -240,5 +240,13 @@
 
     .faq-sect {
         width: 90%;
+    }
+
+    .accordion {
+        width: 95svw;
+    }
+
+    .panel {
+        width: 95svw;
     }
 }
