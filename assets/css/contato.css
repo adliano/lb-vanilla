@@ -50,7 +50,12 @@
   }
 
   .endereco p {
-    padding: .25rem 0;
+    /* padding: .25rem 0; */
+    padding: 8px 0;
+  }
+
+  .endereco a {
+    padding: 0 8px;
   }
   
   @media screen and (max-width: 940px) {
