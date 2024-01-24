@@ -22,8 +22,10 @@
   <link rel="stylesheet" href="./assets/css/preload.css">
   <!-- Async -->
   <link rel="preload" href="../assets/css/whatsapp.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+  <link rel="preload" href="./assets/css/cnh.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
   <noscript>
     <link rel="stylesheet" href="../assets/css/whatsapp.css">
+    <link rel="stylesheet" href="./assets/css/cnh.css">
   </noscript>
   <title>CNH SUSPENSA, CASSADA OU BLOQUEADA?</title>
 </head>
@@ -57,6 +59,153 @@
     </div>
     <!-- <Wave direction='up' /> -->
   </div>
+  <!-- ----------- -->
+  <!-- Pain Points -->
+  <!-- ----------- -->
+  <div class="cnh-dores">
+    <p class="cnh-dores-header">
+      <span>Podemos te ajudar</span>, mas você tem que agir rápido e não
+      perder mais tempo!
+    </p>
+    <div class="cnh-cards-container">
+      <!-- SUSPENSA -->
+      <div class="cnh-card">
+        <!-- <div class="cnh-card-body"> -->
+        <img src="./assets/images/cnh-suspensa.webp" alt="CNH Suspensa" width="64" height="64">
+        <p>CNH Suspensa</p>
+        <!-- </div> -->
+        <button id="suspensa-open" onclick="onBtnClick(this.id)">SAIBA MAIS</button>
+      </div>
+      <!-- CASSADA -->
+      <div class="cnh-card">
+        <img src="./assets/images/cnh-cassada.webp" alt="CNH Cassada" width="64" height="64">
+        <p>CNH Cassada</p>
+        <button id="cassada-open" onclick="onBtnClick(this.id)">SAIBA MAIS</button>
+      </div>
+      <!-- BLOQUEADA -->
+      <div class="cnh-card">
+        <img src="./assets/images/cnh-bloqueada.webp" alt="CNH Bloqueada" width="64" height="64">
+        <p>CNH Bloqueada</p>
+        <button id="bloqueada-open" onclick="onBtnClick(this.id)">SAIBA MAIS</button>
+      </div>
+      <!-- MODALs INFO -->
+      <!-- ------------------- -->
+      <!--    MODAL SUSPENSA   -->
+      <!-- ------------------- -->
+      <div id="suspensa-open-modal" class="modal">
+        <!-- Modal content -->
+        <div class="modal-content">
+          <!-- CLOSE BTN -->
+          <span class="close" onclick="onCloseClick(event)">&times;</span>
+          <div class='cnh-suspensa'>
+            <h1>CNH SUSPENSA</h1>
+            <span class='line'></span>
+            <p>
+              Conforme as novas regras de trânsito, em um período de 12 meses, o
+              condutor pode somar até 40 pontos na carteira. Se ele ultrapassar esse
+              número, terá a CNH suspensa. Entretanto, esse limite pode ser alterado
+              se o motorista cometer infração gravíssima
+            </p>
+            <p>
+              Se o motorista for pego dirigindo mesmo após a suspensão da
+              habilitação, pode ficar detido de seis meses a um ano. Além disso,
+              paga multa e tem a licença cassada.
+            </p>
+            <p>
+              A suspensão do direito de dirigir, é uma penalidade prevista no art.
+              256, inciso III, do Código de Trânsito Brasileiro (CTB). Isso acontece
+              quando o motorista não segue as regras estabelecidas por esse órgão.
+            </p>
+            <p></p>
+            <h3>
+              Veja algumas infrações que poderá ensejar na suspensão do direito de
+              dirigir:
+            </h3>
+            <ul>
+              <li>Dirigir alcoolizado;</li>
+              <li>
+                Dirigir em velocidade a máxima em mais 50% do limite permitido;
+              </li>
+              <li>
+                Forçar a passagem entre veículos transitando em sentidos opostos;
+              </li>
+              <li>Transportar na moto criança menor de 7 anos de idade;</li>
+              <li>Transpor bloqueio policial;</li>
+
+              <li>Dirigir moto com os faróis apagados;</li>
+              <li>
+                Dirigir moto e/ou transportar na moto passageiro sem capacete;
+              </li>
+              <li>Dirigir fazendo malabarismo ou manobra perigosa;</li>
+              <li>
+                Participar de competições esportivas sem autorização da autoridade
+                de trânsito;
+              </li>
+              <li>Dirigir ameaçando pedestres;</li>
+              <li>Disputar corrida (racha) e omitir socorro à vítima.</li>
+            </ul>
+            <h3>É POSSÍVEL DIRIGIR COM A CNH SUSPENSA?</h3>
+            <p>
+              Não, pois o motorista deve entregar a CNH suspensa ao DETRAN
+              (Departamento Estadual de Trânsito) ou a um CFC (Centro de Formação de
+              Condutores). Portanto, dirigir nessa situação é considerado infração
+              gravíssima, acarretando penalidade e outras consequências. Ele pode
+              ter a CNH cassada, ficar mais de dois anos sem dirigir e pagar multa.
+            </p>
+            <p>
+              Além disso, o condutor que tomar multa com a CNH suspensa, deve passar
+              por todos os processos necessários exigidos na primeira habilitação.
+              Ou seja, realizar os exames físicos e psicológicos, as aulas práticas
+              e teóricas e as provas.
+            </p>
+            <h3>POR QUANTO TEMPO A CNH FICA SUSPENSA?</h3>
+            <p>
+              Ao atingir o limite de pontos, seja ele qual for (40, 30 ou 20) a
+              habilitação entrará em um processo de suspensão. O período de
+              suspensão, nesse caso, irá variar de 6 meses a 1 ano e, no caso de
+              reincidência no período de 12 meses, de 8 meses a 2 anos. Ainda assim,
+              sera possivel reverter essa situação recorrendo da penalidade.
+            </p>
+            <h3>ENTÃO QUER DIZER QUE EU VOU FICAR IMPOSSIBILITADO DE DIRIGIR?</h3>
+            <p>
+              Não necessariamente. Podemos te ajudar a regularizar a sua CNH
+              suspensa para você voltar a dirigir, com discrição, agilidade e dentro
+              da lei.
+            </p>
+            <button onclick="onFecharClick(event)">FECHAR</button>
+          </div>
+        </div>
+      </div>
+      <!-- ------------- -->
+      <!-- MODAL CASSADA -->
+      <!-- ------------- -->
+      <div id="cassada-open-modal" class="modal">
+        <!-- Modal content -->
+        <div class="modal-content">
+          <!-- CLOSE BTN -->
+          <span class="close" onclick="onCloseClick(event)">&times;</span>
+          <h1>CNH Cassada</h1>
+          <p>Some text in the Modal..</p>
+        </div>
+      </div>
+      <!-- --------------- -->
+      <!-- MODAL BLOQUEADA -->
+      <!-- --------------- -->
+      <div id="bloqueada-open-modal" class="modal">
+        <!-- Modal content -->
+        <div class="modal-content">
+          <!-- CLOSE BTN -->
+          <span class="close" onclick="onCloseClick(event)">&times;</span>
+          <h1>CNH Bloqueada</h1>
+          <p>Some text in the Modal..</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- ------------------------------------ -->
+  <!--               SCRIPTS                -->
+  <!-- ------------------------------------ -->
+  <script async src="./assets/js/app-cnh.js"></script>
 </body>
 
 </html>

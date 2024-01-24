@@ -1,0 +1,51 @@
+/* ************************************ */
+/* *********** CNH Info *************** */
+/* ************************************ */
+.cnh-suspensa {
+    padding: 0 1rem;
+  }
+  .cnh-suspensa h1 {
+    text-align: center;
+    padding: 1rem 0 0.5rem 0;
+    font-size: 2rem;
+  }
+  .cnh-suspensa p {
+    padding: 0.5rem;
+    text-align: justify;
+  }
+  .cnh-suspensa h3 {
+    padding: .5rem 0rem;
+    text-transform: uppercase;
+  }
+  .cnh-suspensa ul {
+    margin-bottom: .5rem;
+  }
+  .cnh-suspensa ul li::before {
+    content: '🚫';
+    font-size: 1.2rem;
+    font-weight: bold;
+    display: inline-block;
+    width: 0.5rem;
+    margin: 1rem 1.25rem 0 0rem;
+  }
+  .cnh-suspensa button {
+    text-align: center;
+    margin: 3rem auto;
+    padding: 0.75rem;
+    font-weight: 700;
+    font-size: 1.5rem;
+    box-shadow: 0 7px 10px #152b40;
+  }
+  /* =========== MOBILE =========== */
+  @media screen and (max-width: 920px) {
+    .cnh-info {
+      padding: 0.5rem;
+    }
+    .cnh-info ul li {
+      display: flex;
+      margin: 0.75rem 0;
+    }
+    .cnh-info ul li::before {
+      margin: 0 1.25rem auto 0;
+    }
+  }
