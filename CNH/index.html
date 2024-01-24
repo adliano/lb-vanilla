@@ -18,18 +18,8 @@
   <meta property='og:site_name' content='CNH Suspensa, Cassada ou Bloqueada?' />
   <meta property="article:publisher" content='FACEBOOK' />
   <meta property="og:image" content='./assets/images/Lilian-Bueno-Logo-full' />
-  <!-- Preloads Style CSS -->
-  <link rel="stylesheet" href="./assets/css/preload.css">
-  <!-- Async -->
-  <link rel="preload" href="../assets/css/whatsapp.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
-  <link rel="preload" href="./assets/css/cnh.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
-  <noscript>
-    <link rel="stylesheet" href="../assets/css/whatsapp.css">
-    <link rel="stylesheet" href="./assets/css/cnh.css">
-  </noscript>
   <title>CNH SUSPENSA, CASSADA OU BLOQUEADA?</title>
 </head>
-
 <body>
   <!-- ============== -->
   <!--      HERO      -->
@@ -71,20 +61,20 @@
       <!-- SUSPENSA -->
       <div class="cnh-card">
         <!-- <div class="cnh-card-body"> -->
-        <img src="./assets/images/cnh-suspensa.webp" alt="CNH Suspensa" width="64" height="64">
+        <img src="./assets/images/cnh-suspensa.webp" alt="CNH Suspensa" width="64" height="48">
         <p>CNH Suspensa</p>
         <!-- </div> -->
         <button id="suspensa-open" onclick="onBtnClick(this.id)">SAIBA MAIS</button>
       </div>
       <!-- CASSADA -->
       <div class="cnh-card">
-        <img src="./assets/images/cnh-cassada.webp" alt="CNH Cassada" width="64" height="64">
+        <img src="./assets/images/cnh-cassada.webp" alt="CNH Cassada" width="64" height="48">
         <p>CNH Cassada</p>
         <button id="cassada-open" onclick="onBtnClick(this.id)">SAIBA MAIS</button>
       </div>
       <!-- BLOQUEADA -->
       <div class="cnh-card">
-        <img src="./assets/images/cnh-bloqueada.webp" alt="CNH Bloqueada" width="64" height="64">
+        <img src="./assets/images/cnh-bloqueada.webp" alt="CNH Bloqueada" width="64" height="48">
         <p>CNH Bloqueada</p>
         <button id="bloqueada-open" onclick="onBtnClick(this.id)">SAIBA MAIS</button>
       </div>
@@ -398,7 +388,7 @@
         </div>
       </div>
     </div>
-    <div style="width: 100%;text-align: center;">
+    <div class="whats-btn-wrapper">
       <a href="https://wa.me/5562993840831/?text=">
         <button class='button-wp'>
           <div class='icon-wp'>
@@ -412,6 +402,16 @@
   <!-- ------------------------------------ -->
   <!--               SCRIPTS                -->
   <!-- ------------------------------------ -->
+  <!-- Preloads Style CSS -->
+  <link rel="stylesheet" href="./assets/css/preload.css" media="all">
+  <!-- Async -->
   <script async src="./assets/js/app-cnh.js"></script>
+  <link rel="preload" href="../assets/css/whatsapp.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+  <link rel="preload" href="./assets/css/cnh.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+  <noscript>
+    <link rel="stylesheet" href="../assets/css/whatsapp.css">
+    <link rel="stylesheet" href="./assets/css/cnh.css">
+  </noscript>
 </body>
+
 </html>
