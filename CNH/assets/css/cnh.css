@@ -86,7 +86,7 @@
 }
 
 /* =========== MOBILE =========== */
-@media screen and (max-width: 940px) {
+@media screen and (max-width: 900px) {
     .cnh-info {
         padding: 0.5rem;
     }
@@ -102,5 +102,11 @@
 
     .whats-btn-wrapper {
         margin-top: 16px;
+    }
+
+    /* Modal Content */
+    .modal-content {
+        width: 95%;
+        padding: 5px;
     }
 }
