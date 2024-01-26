@@ -1,0 +1,112 @@
+/* ************************************ */
+/* *********** CNH Info *************** */
+/* ************************************ */
+.cnh-modal {
+    padding: 0 1rem;
+}
+
+.cnh-cards-container h1 {
+    text-align: center;
+    padding: 1rem 0 0.5rem 0;
+    font-size: 2rem;
+}
+
+.cnh-cards-container p {
+    padding: 0.5rem;
+}
+
+.cnh-cards-container h3 {
+    padding: .5rem 0rem;
+    text-transform: uppercase;
+}
+
+.cnh-cards-container ul {
+    margin-bottom: .5rem;
+}
+
+.cnh-cards-container ul li::before {
+    content: '🚫';
+    font-size: 1.2rem;
+    font-weight: bold;
+    display: inline-block;
+    width: 0.5rem;
+    margin: 1rem 1.25rem 0 0rem;
+}
+
+.cnh-cards-container button {
+    text-align: center;
+    margin: 20px 0;
+    padding: 0.75rem;
+    font-weight: 700;
+    font-size: 1.5rem;
+    box-shadow: 0 7px 10px #152b40;
+}
+
+.whats-btn-wrapper {
+    width: 100%;
+    text-align: center;
+    margin-top: 58px;
+}
+
+.line {
+    display: block;
+    width: 40px;
+    height: 3px;
+    margin: 5px auto;
+    background-color: #BF9563;
+}
+
+.cnh-card button:hover {
+    background-color: #152b40;
+}
+
+/* Modal Content */
+.modal-content {
+    background-color: #fefefe;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+    box-shadow: 0 7px 10px #152b40;
+}
+
+/* The Close Button */
+.close {
+    color: #aaaaaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: #152b40;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+/* =========== MOBILE =========== */
+@media screen and (max-width: 900px) {
+    .cnh-info {
+        padding: 0.5rem;
+    }
+
+    .cnh-info ul li {
+        display: flex;
+        margin: 0.75rem 0;
+    }
+
+    .cnh-info ul li::before {
+        margin: 0 1.25rem auto 0;
+    }
+
+    .whats-btn-wrapper {
+        margin-top: 16px;
+    }
+
+    /* Modal Content */
+    .modal-content {
+        width: 95%;
+        padding: 5px;
+    }
+}

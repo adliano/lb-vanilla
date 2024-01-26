@@ -84,7 +84,7 @@ ul {
 } */
 
 /* WhatsApp */
-.icon-wp {
+/* .icon-wp {
     display: grid;
     column-gap: 1px;
     grid-template-columns: 15% auto;
@@ -103,7 +103,7 @@ ul {
     letter-spacing: .8px;
     background-color: #0F6120;
     border: 1px solid #FAFAFA;
-}   
+}    */
 
 .logo {
     float: left;
