@@ -16,6 +16,10 @@ a {
   text-decoration: none;
 }
 
+ul {
+  list-style: none;
+}
+
 .cnh-hero {
   background-color: #152b40c8;
   color: #fafafa;
