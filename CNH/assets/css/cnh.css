@@ -85,6 +85,71 @@
     cursor: pointer;
 }
 
+/* ***************** */
+/*     Servicos      */
+/* ***************** */
+.cnh-works {
+    background-color: #152b40;
+    color: #fafafa;
+    height: 100%;
+    width: 100%;
+    text-align: center;
+    margin: auto;
+    padding: 0;
+}
+
+.cnh-works .cnh-works-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.cnh-works-col {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 2rem;
+    text-align: left;
+}
+
+.cnh-works-col h1 {
+    /* color: #bf9563; */
+    text-align: center;
+}
+
+.cnh-works-col h3 {
+    margin: 2rem 0 0.75rem 0;
+    font-size: 1.75rem;
+    text-decoration: underline;
+}
+
+.cnh-works-col p {
+    margin: 0.5rem 0;
+    font-size: 1.5rem;
+    font-weight: 400;
+    text-align: justify;
+}
+
+.cnh-works-col ul li {
+    text-align: justify;
+    font-size: 1.5rem;
+    font-weight: 400;
+}
+
+.cnh-works-col ul li::before {
+    content: '✅';
+    font-size: 1.25rem;
+    display: inline-block;
+    width: 0.5rem;
+    margin: 1rem 1.25rem 0 0;
+}
+
+.cnh-works-container img {
+    width: 75%;
+    height: auto;
+    /* max-width: 480px; */
+    margin: auto;
+}
+
 /* =========== MOBILE =========== */
 @media screen and (max-width: 900px) {
     .cnh-info {
@@ -108,5 +173,18 @@
     .modal-content {
         width: 95%;
         padding: 5px;
+    }
+
+    .cnh-works .cnh-works-container {
+        grid-template-columns: 1fr;
+    }
+
+    .cnh-works-container img {
+        width: 90%;
+        height: auto;
+    }
+
+    .cnh-works-col {
+        padding: 0.75rem;
     }
 }
