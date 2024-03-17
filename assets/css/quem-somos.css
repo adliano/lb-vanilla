@@ -18,9 +18,10 @@
   padding: 2rem;
 }
 
-/* .quem-somos img {
+.quem-somos img {
   margin: auto;
-} */
+  height: auto;
+}
 
 .quem-somos p {
   margin: 1rem 0;
