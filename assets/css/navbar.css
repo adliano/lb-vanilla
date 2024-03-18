@@ -76,6 +76,12 @@
   background: transparent;
   width: 100%;
 }
+
+/* Remove menu for desktop view */
+.overlay-menu {
+  display: none;
+}
+
 /*  Mobile  */
 @media (max-width: 940px) {
   /* Icon Bars */
