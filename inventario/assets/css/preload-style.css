@@ -6,7 +6,7 @@
     position: relative;
 }
 
-.inventario-hero:before {
+.inventario-hero::before {
     content: '';
     background: url('../images/fundo-test.webp') no-repeat center center/cover;
     height: 100%;
@@ -14,4 +14,41 @@
     position: absolute;
     z-index: -1;
     background-attachment: fixed;
+}
+
+.content-hero {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: auto;
+    padding: 2rem;
+}
+
+.content-hero>img {
+    height: auto;
+    margin-bottom: 25px;
+}
+
+.inventario-text h1 {
+    font-weight: 700;
+    text-shadow: 0 3px 7px #BF9563;
+}
+
+.inventario-text p {
+    margin: 1rem 0;
+    font-weight: 500;
+    font-size: 1.25rem;
+}
+
+/* ************************** */
+/*         M O B I L E        */
+/* ************************** */
+@media (max-width: 940px) {
+    .content-hero>img {
+        width: 85svw;
+        max-width: 480px;
+        margin-top: 50px;
+        margin-bottom: 25px;
+    }    
 }
