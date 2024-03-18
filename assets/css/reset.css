@@ -1,0 +1,29 @@
+* {
+    border: 0;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #FAFAFA;
+}
+
+.line {
+    display: block;
+    width: 40px;
+    height: 3px;
+    margin: 5px auto;
+    background-color: #BF9563;
+}
+
+a {
+    color: inherit;
+    font-family: inherit;
+    font-size: inherit;
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
