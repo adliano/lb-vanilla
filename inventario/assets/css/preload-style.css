@@ -1,6 +1,8 @@
 .inventario-hero {
     color: #152B40;
-    /* background-color: #FAFAFAAA; */
+    background-color: #FAFAFAAA;
+    /* color: #FAFAFA;
+    background-color: #152B40AA; */
     height: 100svh;
     width: 100%;
     position: relative;
@@ -8,7 +10,7 @@
 
 .inventario-hero::before {
     content: '';
-    background: url('../images/fundo-test.webp') no-repeat center center/cover;
+    background: url('../images/inventario-hero-background.webp') no-repeat center center/cover;
     height: 100%;
     width: 100%;
     position: absolute;
@@ -23,22 +25,34 @@
     justify-content: center;
     margin: auto;
     padding: 2rem;
+    padding-top: 0;
 }
 
-.content-hero>img {
+/* .content-hero>img {
     height: auto;
-    margin-bottom: 25px;
+    margin-bottom: 75px;
+} */
+
+.inventario-hero>img {
+    margin: 25px 0 -30px 2rem;
+    height: auto;
 }
 
 .inventario-text h1 {
     font-weight: 700;
-    text-shadow: 0 3px 7px #BF9563;
+    /* text-shadow: 0 3px 7px #BF9563; */
+    font-size: 5rem;
+    margin-bottom: 25px;
 }
 
 .inventario-text p {
     margin: 1rem 0;
     font-weight: 500;
-    font-size: 1.25rem;
+    font-size: 2.25rem;
+}
+
+.inventario-text p:nth-child(4) {
+    font-size: 3rem;
 }
 
 /* ************************** */
