@@ -55,6 +55,38 @@
     font-size: 3rem;
 }
 
+/* *************************** */
+/*           SERVICOS          */
+/* *************************** */
+.inventario-servicos {
+    height: 100%;
+    width: 100%;
+    color: #152B40;
+    max-width: 1240px;
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    margin: 100px auto;
+}
+
+.col-servicos {
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    justify-content: center;
+    padding: 2rem;
+}
+
+.col-servicos>h2 {
+    font-size: 2.5rem;
+    text-align: center;
+}
+
+.col-servicos p {
+    margin: 1rem 0;
+    font-weight: 500;
+    font-size: 2rem;   
+}
+
 /* ************************** */
 /*         M O B I L E        */
 /* ************************** */
