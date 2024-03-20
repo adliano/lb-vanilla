@@ -1,6 +1,6 @@
 .inventario-hero {
     color: #152B40;
-    background-color: #FAFAFAAA;
+    background-color: #FAFAFA70;
     /* color: #FAFAFA;
     background-color: #152B40AA; */
     height: 100svh;
@@ -18,14 +18,19 @@
     background-attachment: fixed;
 }
 
+.inventario-hero>img {
+    position: absolute;
+    margin: 25px 0 0 25px;
+    height: auto;
+}
+
 .content-hero {
     height: 100%;
     display: flex;
     flex-direction: column;
     justify-content: center;
     margin: auto;
-    padding: 2rem;
-    padding-top: 0;
+    padding: 25px;
 }
 
 /* .content-hero>img {
@@ -33,15 +38,10 @@
     margin-bottom: 75px;
 } */
 
-.inventario-hero>img {
-    margin: 25px 0 -30px 2rem;
-    height: auto;
-}
-
 .inventario-text h1 {
     font-weight: 700;
     /* text-shadow: 0 3px 7px #BF9563; */
-    font-size: 5rem;
+    font-size: 4rem;
     margin-bottom: 25px;
 }
 
