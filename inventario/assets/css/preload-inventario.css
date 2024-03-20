@@ -1,0 +1,177 @@
+* {
+  border: 0;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #fafafa;
+}
+
+.line {
+  display: block;
+  width: 40px;
+  height: 3px;
+  margin: 5px auto;
+  background-color: #bf9563;
+}
+
+a {
+  color: inherit;
+  font-family: inherit;
+  font-size: inherit;
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
+
+/* HERO */
+.distrato-hero {
+  background-color: #152b40c8;
+  color: #fafafa;
+  background-size: 50px 10%;
+  height: 100svh;
+  width: 100svw;
+  /* position: relative; */
+}
+
+.distrato-hero > img {
+  position: absolute;
+  margin: 25px 0 0 25px;
+}
+
+.distrato-hero::before {
+  content: '';
+  background: url('../images/lilian-bueno-inventario-fundo.webp') no-repeat
+    center center/cover;
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-color: #fafafa;
+  height: 100svh;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+
+.distrato-hero .content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100%;
+  margin: 0 30px 0 25px;
+  /* padding: 25svh 2rem; */
+}
+
+.distrato-hero .content-img {
+  /* width: 18%; */
+  max-width: 480px;
+  height: auto;
+  padding: 0 1rem 2rem 1rem;
+}
+
+.distrato-hero .content h1 {
+  color: #d9d0bf;
+  text-shadow: 0 1px 2px #000;
+  margin-bottom: 15px;
+  font-size: 2.75rem;
+}
+
+/* .distrato-hero .content .distrato-text p:first-child { */
+.distrato-hero .content .distrato-text p {
+  font-weight: 500;
+  font-size: 1.75rem;
+  /* margin-top: .2rem; */
+}
+
+.distrato-hero .content .distrato-text p:nth-child(4) {
+  font-weight: 900;
+  font-size: 1.75rem;
+  margin-top: 50px;
+  margin-bottom: 15px;
+  text-transform: uppercase;
+}
+
+/* WhatsApp */
+.icon-wp {
+  display: grid;
+  column-gap: 1px;
+  grid-template-columns: 15% auto;
+}
+
+.icon-wp .btn-text {
+  margin: auto;
+  font-size: 1.25rem;
+}
+
+.button-wp {
+  margin: 0.5rem 0;
+  padding: 0.25rem;
+  color: #fafafa;
+  font-weight: bolder;
+  width: 320px;
+  letter-spacing: 0.8px;
+  background-color: #0f6120;
+  border: 1px solid #fafafa;
+}
+
+/* WAVE */
+.wave-path-up {
+  fill: #fafafa;
+  transform-origin: center;
+  transform: rotate(180deg);
+}
+
+.wave-svg {
+  height: 50px;
+  /* width: calc(100% + 1.3px); */
+  width: 100%;
+  /* margin-bottom: -.4rem; */
+}
+
+/* ************ MOBILE ************* */
+@media screen and (max-width: 940px) {
+  .distrato-hero {
+    width: 100%;
+  }
+
+  .distrato-hero .content {
+    padding: 2rem 1rem;
+  }
+
+  .distrato-hero::before {
+    /* Canceles the parallax scrolling effect */
+    background-attachment: scroll;
+  }
+
+  .distrato-hero .content-img {
+    width: 75svw;
+    max-width: 480px;
+    padding: 0 1rem 2rem 1rem;
+  }
+
+  .distrato-hero .content h1 {
+    margin-top: 1rem;
+  }
+
+  .distrato-hero .content .cnh-text p:first-child {
+    margin-top: 0.5rem;
+    font-size: 10rem;
+  }
+
+  .distrato-hero .content .distrato-text p:nth-child(2) {
+    /* font-size: 1rem; */
+    margin-top: 1rem;
+  }
+
+  /* WAVE */
+  .wave-svg {
+    height: 25px;
+    /* width: calc(125% + 1.3px); */
+    width: 100%;
+  }
+}
